@@ -1,0 +1,12 @@
+[Sharpening]
+Enabled=false
+
+[Impulse Denoising]
+Enabled=true
+
+[PostDemosaicSharpening]
+Enabled=false
+
+[Directional Pyramid Denoising]
+Median=false
+LMethod=SLI

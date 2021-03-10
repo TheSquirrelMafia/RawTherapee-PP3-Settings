@@ -1,0 +1,30 @@
+[Black & White]
+Enabled=true
+Method=ChannelMixer
+Auto=false
+ComplementaryColors=true
+Setting=Orthochromatic
+Filter=None
+MixerRed=0
+MixerOrange=33
+MixerYellow=33
+MixerGreen=42
+MixerCyan=33
+MixerBlue=58
+MixerMagenta=33
+MixerPurple=33
+GammaRed=0
+GammaGreen=0
+GammaBlue=0
+Algorithm=SP
+LuminanceCurve=0;
+BeforeCurveMode=Standard
+AfterCurveMode=Standard
+BeforeCurve=1;0;0;0.13;0.1;0.33;0.3;0.68;0.7;0.88;0.9;1;1;
+AfterCurve=1;0;0;0.8;0.85;1;1;
+
+[Color Management]
+WorkingProfile=ProPhoto
+
+[Film Simulation]
+Enabled=false

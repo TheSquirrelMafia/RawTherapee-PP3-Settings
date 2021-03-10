@@ -1,0 +1,33 @@
+[Exposure]
+Compensation=0.07
+Brightness=-3
+Contrast=1
+Black=0
+HighlightCompr=0
+HighlightComprThreshold=0
+ShadowCompr=50
+HistogramMatching=false
+Curve=0;
+Curve2=0;
+
+[Color Management]
+InputProfile=file:C:\\Program Files\\RawTherapee\\Pentax DCP\\Bright.dcp
+ToneCurve=true
+ApplyLookTable=true
+ApplyBaselineExposureOffset=false
+ApplyHueSatMap=true
+WorkingProfile=ProPhoto
+
+[Film Simulation]
+Enabled=false
+
+[Wavelet]
+Enabled=false
+Expresid=false
+Expclari=false
+Ushamethod=clari
+ResidualcontShadow=0
+ResidualcontHighlight=0
+ResidualTM=0
+Residualgamma=0
+Contrast=0

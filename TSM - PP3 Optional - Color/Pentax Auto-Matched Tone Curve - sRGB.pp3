@@ -1,0 +1,9 @@
+[Exposure]
+HistogramMatching=true
+
+[Color Management]
+ToneCurve=false
+ApplyLookTable=true
+ApplyBaselineExposureOffset=true
+ApplyHueSatMap=true
+WorkingProfile=sRGB
