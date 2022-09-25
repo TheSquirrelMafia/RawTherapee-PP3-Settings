@@ -1,0 +1,26 @@
+[Exposure]
+HistogramMatching=false
+Curve=0;
+Curve2=0;
+
+[Color Management]
+InputProfile=file:/usr/share/Nikon DCP/Portrait.dcp
+ToneCurve=true
+ApplyLookTable=true
+ApplyBaselineExposureOffset=false
+ApplyHueSatMap=true
+WorkingProfile=ProPhoto
+
+[Film Simulation]
+Enabled=false
+
+[Wavelet]
+Enabled=false
+Expresid=false
+Expclari=false
+Ushamethod=clari
+ResidualcontShadow=0
+ResidualcontHighlight=0
+ResidualTM=0
+Residualgamma=0
+Contrast=0

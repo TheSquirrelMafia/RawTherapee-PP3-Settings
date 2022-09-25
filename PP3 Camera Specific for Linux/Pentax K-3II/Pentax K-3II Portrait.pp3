@@ -1,0 +1,42 @@
+[Exposure]
+HistogramMatching=false
+Curve=0;
+Curve2=0;
+
+[FattalToneMapping]
+Enabled=false
+
+[Channel Mixer]
+Enabled=false
+
+[Black & White]
+Enabled=false
+
+[Vibrance]
+Enabled=false
+
+[Color Management]
+InputProfile=file:/usr/share/Pentax DCP/RICOH PENTAX K-3II Portrait.dcp
+ToneCurve=true
+ApplyLookTable=true
+ApplyBaselineExposureOffset=false
+ApplyHueSatMap=true
+WorkingProfile=ProPhoto
+
+[HSV Equalizer]
+Enabled=false
+
+[SoftLight]
+Enabled=false
+
+[Film Simulation]
+Enabled=false
+
+[RGB Curves]
+Enabled=false
+
+[ColorToning]
+Enabled=false
+
+[Film Negative]
+Enabled=false
