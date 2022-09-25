@@ -1,0 +1,10 @@
+[Exposure]
+Black=-1500
+HighlightCompr=50
+HighlightComprThreshold=75
+ShadowCompr=25
+
+[HLRecovery]
+Enabled=true
+Method=Blend
+Hlbl=0
