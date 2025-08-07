@@ -1,8 +1,0 @@
-[Exposure]
-HighlightCompr=50
-HighlightComprThreshold=75
-
-[HLRecovery]
-Enabled=true
-Method=Blend
-Hlbl=0
