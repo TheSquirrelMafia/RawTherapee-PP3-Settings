@@ -1,0 +1,23 @@
+[Exposure]
+Contrast=2
+HistogramMatching=false
+Curve=0;
+Curve2=0;
+
+[HLRecovery]
+Enabled=true
+Method=Blend
+
+[Directional Pyramid Denoising]
+Method=Lab
+
+[ToneEqualizer]
+Enabled=true
+
+[Color Management]
+InputProfile=file:PENTAX KP Portrait.dcp
+ToneCurve=true
+ApplyLookTable=true
+ApplyBaselineExposureOffset=false
+ApplyHueSatMap=true
+WorkingProfile=ProPhoto
