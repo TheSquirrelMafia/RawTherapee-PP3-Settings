@@ -1,0 +1,7 @@
+[Exposure]
+Compensation=-0.03
+
+[Film Simulation]
+Enabled=true
+ClutFilename=Fuji\\Color\\Fuji Velvia 100 Generic.png
+Strength=40

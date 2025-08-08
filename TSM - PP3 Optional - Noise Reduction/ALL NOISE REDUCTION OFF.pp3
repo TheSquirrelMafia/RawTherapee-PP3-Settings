@@ -1,0 +1,18 @@
+[Impulse Denoising]
+Enabled=false
+
+[Directional Pyramid Denoising]
+Enabled=false
+
+[Wavelet]
+Enabled=false
+
+[RAW]
+CA=false
+HotPixelFilter=false
+DeadPixelFilter=false
+
+[RAW Bayer]
+CcSteps=0
+DualDemosaicAutoContrast=false
+DualDemosaicContrast=0

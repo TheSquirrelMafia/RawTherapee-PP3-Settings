@@ -1,0 +1,11 @@
+[Exposure]
+HistogramMatching=true
+ClampOOG=true
+
+[Color Management]
+InputProfile=(camera)
+ToneCurve=false
+ApplyLookTable=false
+ApplyBaselineExposureOffset=false
+ApplyHueSatMap=false
+WorkingProfile=sRGB

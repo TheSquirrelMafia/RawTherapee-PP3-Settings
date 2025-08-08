@@ -1,0 +1,7 @@
+[Exposure]
+Compensation=0.05
+
+[Film Simulation]
+Enabled=true
+ClutFilename=Kodak\\Color\\Kodak Elite ExtraColor 100.png
+Strength=40

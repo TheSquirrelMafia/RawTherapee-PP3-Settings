@@ -1,0 +1,7 @@
+[Exposure]
+Compensation=0.00
+
+[Film Simulation]
+Enabled=true
+ClutFilename=Ilford\\Ilford Pan F Plus 50.png
+Strength=100

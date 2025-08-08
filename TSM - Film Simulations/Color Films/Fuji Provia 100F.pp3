@@ -1,0 +1,7 @@
+[Exposure]
+Compensation=0.08
+
+[Film Simulation]
+Enabled=true
+ClutFilename=Fuji\\Color\\Fuji Provia 100F.png
+Strength=55

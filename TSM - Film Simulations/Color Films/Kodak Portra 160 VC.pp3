@@ -1,0 +1,7 @@
+[Exposure]
+Compensation=-0.10
+
+[Film Simulation]
+Enabled=true
+ClutFilename=Kodak\\Color\\Kodak Portra 160 VC 2.png
+Strength=40

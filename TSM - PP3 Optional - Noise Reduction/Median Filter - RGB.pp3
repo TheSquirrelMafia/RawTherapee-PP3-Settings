@@ -1,0 +1,8 @@
+[Directional Pyramid Denoising]
+Median=true
+RGBMethod=soft
+MethodMed=RGB
+Passes=1
+
+[RAW Bayer]
+Method=amaze
