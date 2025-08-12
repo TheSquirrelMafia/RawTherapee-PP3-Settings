@@ -1,7 +1,0 @@
-[Exposure]
-Compensation=0.02
-
-[Film Simulation]
-Enabled=true
-ClutFilename=Kodak\\Color\\Kodak Kodachrome 200.png
-Strength=40

@@ -1,7 +1,0 @@
-[Exposure]
-Compensation=0.02
-
-[Film Simulation]
-Enabled=true
-ClutFilename=Agfa\\Color\\Agfa Vista 200.png
-Strength=30

@@ -1,6 +1,0 @@
-[Color Management]
-InputProfile=file:Portrait.dcp
-ToneCurve=true
-ApplyLookTable=true
-ApplyBaselineExposureOffset=false
-ApplyHueSatMap=true

@@ -1,5 +1,0 @@
-[Wavelet]
-Enabled=true
-ChoiceLevMethod=sup
-BackMethod=resid
-Expclari=true
