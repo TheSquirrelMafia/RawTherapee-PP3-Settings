@@ -1,0 +1,31 @@
+[Exposure]
+Contrast=2
+HistogramMatching=false
+CurveFromHistogramMatching=false
+ClampOOG=true
+CurveMode=Standard
+CurveMode2=Standard
+Curve=4;0;0;0.050000000000000003;0.027492544434187006;0.12;0.077690409507216965;0.21799999999999997;0.19091760300463084;0.35249999165534973;0.41499999165534973;0.54727999999999999;0.65353521856760788;0.81619199999999992;0.89101513110122177;1;1;
+Curve2=0;
+
+[HLRecovery]
+Enabled=true
+Method=Blend
+
+[ToneEqualizer]
+Enabled=true
+Band0=-25
+Band1=5
+Band2=3
+Band3=0
+Band4=-25
+Regularization=0
+Pivot=0.5
+
+[Color Management]
+InputProfile=file:PENTAX K-3II Vibrant.dcp
+ToneCurve=false
+ApplyLookTable=false
+ApplyBaselineExposureOffset=false
+ApplyHueSatMap=true
+WorkingProfile=sRGB

@@ -1,0 +1,7 @@
+[Exposure]
+Compensation=0.12
+
+[Film Simulation]
+Enabled=true
+ClutFilename=Kodak\\Color\\Kodak Elite Color 400.png
+Strength=40

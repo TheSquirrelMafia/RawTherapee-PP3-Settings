@@ -1,0 +1,7 @@
+[Exposure]
+Compensation=0.07
+
+[Film Simulation]
+Enabled=true
+ClutFilename=Kodak\\Color\\Kodak E-100 GX Ektachrome 100.png
+Strength=60

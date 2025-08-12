@@ -1,0 +1,6 @@
+[Color Management]
+InputProfile=file:Vibrant.dcp
+ToneCurve=true
+ApplyLookTable=true
+ApplyBaselineExposureOffset=false
+ApplyHueSatMap=true

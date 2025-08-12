@@ -1,0 +1,5 @@
+[Sharpening]
+Enabled=false
+
+[PostDemosaicSharpening]
+Enabled=false

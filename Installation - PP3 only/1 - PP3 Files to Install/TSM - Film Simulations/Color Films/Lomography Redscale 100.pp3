@@ -1,0 +1,7 @@
+[Exposure]
+Compensation=0.20
+
+[Film Simulation]
+Enabled=true
+ClutFilename=Lomography\\Lomography Redscale 100.png
+Strength=40

@@ -1,0 +1,7 @@
+[Exposure]
+Compensation=-0.10
+
+[Film Simulation]
+Enabled=true
+ClutFilename=Fuji\\Color\\Fuji Superia 100 2.png
+Strength=40

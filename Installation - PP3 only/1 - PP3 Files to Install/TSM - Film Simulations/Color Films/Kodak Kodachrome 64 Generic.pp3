@@ -1,0 +1,7 @@
+[Exposure]
+Compensation=0.00
+
+[Film Simulation]
+Enabled=true
+ClutFilename=Kodak\\Color\\Kodak Kodachrome 64 Generic.png
+Strength=40

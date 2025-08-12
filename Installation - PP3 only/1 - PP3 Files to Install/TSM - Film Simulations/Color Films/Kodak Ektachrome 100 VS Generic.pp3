@@ -1,0 +1,7 @@
+[Exposure]
+Compensation=-0.01
+
+[Film Simulation]
+Enabled=true
+ClutFilename=Kodak\\Color\\Kodak Ektachrome 100 VS Generic.png
+Strength=30
