@@ -6,9 +6,6 @@ ClampOOG=true
 Enabled=false
 Method=Blend
 
-[Directional Pyramid Denoising]
-Method=Lab
-
 [ToneEqualizer]
 Enabled=false
 

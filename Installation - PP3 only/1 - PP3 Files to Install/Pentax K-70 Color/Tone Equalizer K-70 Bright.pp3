@@ -1,23 +1,31 @@
 [Exposure]
 Contrast=0
 HistogramMatching=false
-Curve=3;0;0;0.105;0.095;0.3;0.3;0.8975;0.9025;1;1;
+CurveFromHistogramMatching=false
+ClampOOG=true
+CurveMode=Standard
+CurveMode2=Standard
+Curve=4;0;0;0.06;0.02;0.13;0.07;0.23;0.19;0.355;0.415;0.53;0.6575;0.8;0.9;1;1;
 Curve2=0;
 
 [HLRecovery]
 Enabled=true
 Method=Blend
 
-[Directional Pyramid Denoising]
-Method=Lab
-
 [ToneEqualizer]
 Enabled=true
+Band0=-25
+Band1=5
+Band2=3
+Band3=0
+Band4=-25
+Regularization=0
+Pivot=0.5
 
 [Color Management]
 InputProfile=file:PENTAX K-70 Bright.dcp
-ToneCurve=true
-ApplyLookTable=true
+ToneCurve=false
+ApplyLookTable=false
 ApplyBaselineExposureOffset=false
 ApplyHueSatMap=true
-WorkingProfile=ProPhoto
+WorkingProfile=sRGB

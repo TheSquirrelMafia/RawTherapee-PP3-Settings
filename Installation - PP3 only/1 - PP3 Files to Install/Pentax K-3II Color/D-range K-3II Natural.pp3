@@ -10,7 +10,7 @@ Method=Blend
 Enabled=false
 
 [Color Management]
-InputProfile=(camera)
+InputProfile=(embedded)
 ToneCurve=false
 ApplyLookTable=false
 ApplyBaselineExposureOffset=false

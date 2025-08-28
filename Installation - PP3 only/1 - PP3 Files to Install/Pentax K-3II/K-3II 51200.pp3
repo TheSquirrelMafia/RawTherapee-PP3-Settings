@@ -14,7 +14,7 @@ CurveFromHistogramMatching=false
 ClampOOG=true
 CurveMode=Standard
 CurveMode2=Standard
-Curve=4;0;0;0.0525;0.02;0.1275;0.07;0.23;0.19;0.3575;0.415;0.5325;0.6575;0.8;0.9;1;1;
+Curve=4;0;0;0.050000000000000003;0.027492544434187006;0.12;0.077690409507216965;0.21799999999999997;0.19091760300463084;0.35249999165534973;0.41499999165534973;0.54727999999999999;0.65353521856760788;0.81619199999999992;0.89101513110122177;1;1;
 Curve2=0;
 
 [HLRecovery]
@@ -54,13 +54,13 @@ HighlightTonalWidth=80
 Shadows=0
 ShadowTonalWidth=80
 Radius=40
-TransmissionCurve=1;0;0.5;0.35;0.35;0.6;0.75;0.35;0.35;1;0.5;0.35;0.35;
-GainTransmissionCurve=1;0;0.1;0.35;0;0.25;0.25;0.35;0.35;0.7;0.25;0.35;0.35;1;0.1;0;0;
+TransmissionCurve=1;0;0.5;0.34999999999999998;0.34999999999999998;0.59999999999999998;0.75;0.34999999999999998;0.34999999999999998;1;0.5;0.34999999999999998;0.34999999999999998;
+GainTransmissionCurve=1;0;0.10000000000000001;0.34999999999999998;0;0.25;0.25;0.34999999999999998;0.34999999999999998;0.69999999999999996;0.25;0.34999999999999998;0.34999999999999998;1;0.10000000000000001;0;0;
 
 [Local Contrast]
 Enabled=false
 Radius=80
-Amount=0.2
+Amount=0.20000000000000001
 Darkness=1
 Lightness=1
 
@@ -122,7 +122,7 @@ BlurRadius=0.38
 Amount=42
 Threshold=20;80;2000;1200;
 OnlyEdges=false
-EdgedetectionRadius=1.9
+EdgedetectionRadius=1.8999999999999999
 EdgeTolerance=1800
 HalocontrolEnabled=true
 HalocontrolAmount=30
@@ -157,8 +157,8 @@ Uniformity=5
 [White Balance]
 Enabled=true
 Setting=Camera
-Temperature=0
-Green=0
+Temperature=5241
+Green=0.9254883214770262
 Equal=1
 TemperatureBias=0
 StandardObserver=TEN_DEGREES
@@ -224,7 +224,7 @@ Threshold=60
 Enabled=false
 Radius=2
 Threshold=13
-HueCurve=1;0.17;0;0.35;0.35;0.35;0;0.35;0.35;0.514;0;0.35;0.35;0.67;0;0.35;0.35;0.83;0.98;0.35;0.35;0.99;0;0.35;0.35;
+HueCurve=1;0.17000000000000001;0;0.34999999999999998;0.34999999999999998;0.34999999999999998;0;0.34999999999999998;0.34999999999999998;0.51400000000000001;0;0.34999999999999998;0.34999999999999998;0.67000000000000004;0;0.34999999999999998;0.34999999999999998;0.82999999999999996;0.97999999999999998;0.34999999999999998;0.34999999999999998;0.98999999999999999;0;0.34999999999999998;0.34999999999999998;
 
 [Dehaze]
 Enabled=false
@@ -236,31 +236,31 @@ Saturation=50
 [Directional Pyramid Denoising]
 Enabled=true
 Enhance=false
-Median=false
-Luma=11
+Median=true
+Luma=22
 Ldetail=0
-Chroma=0
+Chroma=11
 Method=RGB
-LMethod=CUR
+LMethod=SLI
 CMethod=MAN
-C2Method=AUTO
+C2Method=MANU
 SMethod=shal
 MedMethod=55
 RGBMethod=soft
 MethodMed=ab
-Redchro=0
-Bluechro=0
-AutoGain=false
+Redchro=22
+Bluechro=22
+AutoGain=true
 Gamma=1.5
 Passes=1
-LCurve=1;0.1;0.11;0.35;0.35;0.22;0.05;0.35;0.35;
-CCCurve=1;0.025;0.05;0.35;0.35;0.1;0.025;0.35;0.35;
+LCurve=1;0.2199999988079071;0.2199999988079071;0.34999999999999998;0.34999999999999998;0.43999999761581421;0.10999999940395355;0.34999999999999998;0.34999999999999998;
+CCCurve=0;
 
 [EPD]
 Enabled=false
 Strength=0.5
 Gamma=1
-EdgeStopping=1.4
+EdgeStopping=1.3999999999999999
 Scale=1
 ReweightingIterates=0
 
@@ -279,6 +279,18 @@ ShadowTonalWidth=30
 Radius=40
 Lab=false
 
+[Compression gamut]
+Enabled=false
+th_c=0.81499999999999995
+th_m=0.80300000000000005
+th_y=0.88
+d_c=1.147
+d_m=1.264
+d_y=1.3120000000000001
+pwr=1.2
+colorspace=acesp1
+rolloff=true
+
 [ToneEqualizer]
 Enabled=false
 Band0=-25
@@ -286,6 +298,7 @@ Band1=5
 Band2=3
 Band3=0
 Band4=-25
+Band5=0
 Regularization=0
 Pivot=0.5
 
@@ -307,6 +320,7 @@ VerticalFlip=false
 
 [Common Properties for Transformations]
 Method=log
+Scale=1
 AutoFill=true
 
 [Rotation]
@@ -314,6 +328,8 @@ Degree=0
 
 [Distortion]
 Amount=0
+FocalLength=12
+Defish=false
 
 [LensProfile]
 LcMode=none
@@ -348,7 +364,7 @@ ControlLineTypes=
 Enabled=false
 Degree=0
 Feather=25
-Strength=0.6
+Strength=0.59999999999999998
 CenterX=0
 CenterY=0
 
@@ -358,7 +374,7 @@ Selspot=0
 
 [PCVignette]
 Enabled=false
-Strength=0.6
+Strength=0.59999999999999998
 Feather=50
 Roundness=50
 
@@ -375,7 +391,7 @@ CenterY=0
 
 [Resize]
 Enabled=false
-Scale=0.01
+Scale=0.14999999999999999
 AppliesTo=Cropped area
 Method=Lanczos
 DataSpecified=3
@@ -385,13 +401,33 @@ LongEdge=900
 ShortEdge=900
 AllowUpscaling=false
 
+[Framing]
+Enabled=false
+FramingMethod=Standard
+AspectRatio=0
+Orientation=AsImage
+FramedWidth=800
+FramedHeight=600
+AllowUpscaling=false
+BorderSizingMethod=Percentage
+Basis=Auto
+RelativeBorderSize=0.10000000000000001
+MinSizeEnabled=false
+MinWidth=0
+MinHeight=0
+AbsWidth=0
+AbsHeight=0
+BorderRed=255
+BorderGreen=255
+BorderBlue=255
+
 [PostDemosaicSharpening]
 Enabled=false
 Contrast=130
 AutoContrast=false
 AutoRadius=false
 DeconvRadius=0.5
-DeconvRadiusOffset=-0.3
+DeconvRadiusOffset=-0.29999999999999999
 DeconvIterCheck=false
 DeconvIterations=6
 
@@ -403,17 +439,17 @@ Radius=0.5
 Amount=200
 Threshold=20;80;2000;1200;
 OnlyEdges=false
-EdgedetectionRadius=1.9
+EdgedetectionRadius=1.8999999999999999
 EdgeTolerance=1800
 HalocontrolEnabled=false
 HalocontrolAmount=85
-DeconvRadius=0.45
+DeconvRadius=0.45000000000000001
 DeconvAmount=100
 DeconvDamping=0
 DeconvIterations=100
 
 [Color Management]
-InputProfile=(cameraICC)
+InputProfile=(embedded)
 ToneCurve=false
 ApplyLookTable=false
 ApplyBaselineExposureOffset=false
@@ -421,26 +457,41 @@ ApplyHueSatMap=true
 DCPIlluminant=0
 WorkingProfile=sRGB
 WorkingTRC=none
-Will=D50
+Will=D65
 Wprim=def
-WorkingTRCGamma=2.4
+Wcat=brad
+OpacityCurveWLI=1;0;0.5;0.34999999999999998;0.34999999999999998;0.5;0.69999999999999996;0.34999999999999998;0.34999999999999998;1;0.5;0.34999999999999998;0.34999999999999998;
+WorkingTRCGamma=2.3999999999999999
 WorkingTRCSlope=12.92
-Redx=0.7347
-Redy=0.2653
+Wmidtcie=0
+Sigmatrc=1
+Offstrc=1
+Residtrc=0
+Pyrwavtrc=2
+Wsmoothcie=false
+Redx=0.73470000000000002
+Redy=0.26529999999999998
 Grex=0.16
-Grey=0.8404
-Blux=0.0366
+Grey=0.84040000000000004
+Blux=0.036600000000000001
 Bluy=0.0001
-LabGridcieALow=0.51763
-LabGridcieBLow=-0.33582
-LabGridcieAHigh=-0.75163
-LabGridcieBHigh=-0.818
-LabGridcieGx=-0.69164
+Refi=0
+Shiftx=0
+Shifty=0
+LabGridcieALow=0.51763000000000003
+LabGridcieBLow=-0.33582000000000001
+LabGridcieAHigh=-0.75163000000000002
+LabGridcieBHigh=-0.81799999999999995
+LabGridcieGx=-0.69164000000000003
 LabGridcieGy=-0.70909
 LabGridcieWx=-0.18964
-LabGridcieWy=-0.16636
+LabGridcieWy=-0.16636000000000001
+LabGridcieMx=0
+LabGridcieMy=0
 Preser=0
 Fbw=false
+TrcExp=false
+WavExp=false
 Gamut=false
 OutputProfile=No ICM: sRGB output
 aIntent=Relative
@@ -526,9 +577,9 @@ HSMethod=with
 HLRange=50;75;100;98;
 SHRange=0;2;50;25;
 Edgcont=0;10;75;40;
-Level0noise=0.25;2.5;
+Level0noise=0.29999999999999999;2.5;
 Level1noise=0.5;5;
-Level2noise=0.75;7.5;
+Level2noise=0.80000000000000004;7.5;
 Level3noise=1;10;
 Leveldenoise=0;0;
 Levelsigm=1;1;
@@ -549,16 +600,16 @@ NPMethod=none
 BAMethod=none
 TMMethod=cont
 ChromaLink=0
-ContrastCurve=1;0;0.25;0.35;0.35;0.5;0.75;0.35;0.35;0.9;0;0.35;0.35;
-blcurve=1;0;0;0;0.35;0.5;0;0.35;0.35;1;0;0.35;0.35;
+ContrastCurve=1;0;0.25;0.34999999999999998;0.34999999999999998;0.5;0.75;0.34999999999999998;0.34999999999999998;0.90000000000000002;0;0.34999999999999998;0.34999999999999998;
+blcurve=1;0;0;0;0.34999999999999998;0.5;0;0.34999999999999998;0.34999999999999998;1;0;0.34999999999999998;0.34999999999999998;
 Pastlev=0;2;30;20;
 Satlev=30;45;130;100;
-OpacityCurveRG=1;0;0.5;0.35;0.35;1;0.5;0.35;0.35;
-OpacityCurveBY=1;0;0.5;0.35;0.35;1;0.5;0.35;0.35;
-wavdenoise=1;0;1;0.35;0.35;0.5;1;0.35;0.35;1;1;0.35;0.35;
-wavdenoiseh=1;0;1;0.35;0.35;0.5;1;0.35;0.35;1;1;0.35;0.35;
-OpacityCurveW=1;0;0.35;0.35;0;0.35;0.75;0.35;0.35;0.6;0.75;0.35;0.35;1;0.35;0;0;
-OpacityCurveWL=1;0;0.5;0.35;0.35;1;0.5;0.35;0.35;
+OpacityCurveRG=1;0;0.5;0.34999999999999998;0.34999999999999998;1;0.5;0.34999999999999998;0.34999999999999998;
+OpacityCurveBY=1;0;0.5;0.34999999999999998;0.34999999999999998;1;0.5;0.34999999999999998;0.34999999999999998;
+wavdenoise=1;0;1;0.34999999999999998;0.34999999999999998;0.5;1;0.34999999999999998;0.34999999999999998;1;1;0.34999999999999998;0.34999999999999998;
+wavdenoiseh=1;0;1;0.34999999999999998;0.34999999999999998;0.5;1;0.34999999999999998;0.34999999999999998;1;1;0.34999999999999998;0.34999999999999998;
+OpacityCurveW=1;0;0.34999999999999998;0.34999999999999998;0;0.34999999999999998;0.75;0.34999999999999998;0.34999999999999998;0.59999999999999998;0.75;0.34999999999999998;0.34999999999999998;1;0.34999999999999998;0;0;
+OpacityCurveWL=1;0;0.5;0.34999999999999998;0.34999999999999998;1;0.5;0.34999999999999998;0.34999999999999998;
 HHcurve=0;
 Wavguidcurve=0;
 Wavhuecurve=0;
@@ -593,7 +644,7 @@ Residualchroma=0
 Residualblur=0
 Residualblurc=0
 ResidualTM=0
-ResidualEDGS=1.4
+ResidualEDGS=1.3999999999999999
 ResidualSCALE=1
 Residualgamma=1
 HueRangeResidual=0
@@ -613,7 +664,7 @@ Mult2=1
 Mult3=1
 Mult4=1
 Mult5=1
-Threshold=0.2
+Threshold=0.20000000000000001
 Skinprotect=0
 Hueskin=-5;25;170;120;
 
@@ -657,45 +708,45 @@ Redhigh=0
 Greenhigh=0
 Bluehigh=0
 Autosat=true
-OpacityCurve=1;0;0.3;0.35;0;0.25;0.8;0.35;0.35;0.7;0.8;0.35;0.35;1;0.3;0;0;
-ColorCurve=1;0.08;0.62;0.25;0.25;0.585;0.11;0.25;0.25;
+OpacityCurve=1;0;0.29999999999999999;0.34999999999999998;0;0.25;0.80000000000000004;0.34999999999999998;0.34999999999999998;0.69999999999999996;0.80000000000000004;0.34999999999999998;0.34999999999999998;1;0.29999999999999999;0;0;
+ColorCurve=1;0.080000000000000002;0.62;0.25;0.25;0.58499999999999996;0.11;0.25;0.25;
 SatProtectionThreshold=86
 SaturatedOpacity=23
 Strength=50
 HighlightsColorSaturation=60;80;
 ShadowsColorSaturation=80;208;
-ClCurve=3;0;0;0.35;0.65;1;1;
-Cl2Curve=3;0;0;0.35;0.65;1;1;
+ClCurve=3;0;0;0.34999999999999998;0.65000000000000002;1;1;
+Cl2Curve=3;0;0;0.34999999999999998;0.65000000000000002;1;1;
 LabGridALow=0
 LabGridBLow=0
 LabGridAHigh=0
 LabGridBHigh=0
-LabRegionA_1=0.015
-LabRegionB_1=-0.03
+LabRegionA_1=0.014999999999999999
+LabRegionB_1=-0.029999999999999999
 LabRegionSaturation_1=0
 LabRegionSlope_1=1
 LabRegionOffset_1=0
 LabRegionPower_1=1
-LabRegionHueMask_1=1;0.17;1;0.35;0.35;0.8288;1;0.35;0.35;
-LabRegionChromaticityMask_1=1;0;1;0.35;0.35;1;1;0.35;0.35;
-LabRegionLightnessMask_1=1;0;1;0.35;0.35;1;1;0.35;0.35;
+LabRegionHueMask_1=1;0.17000000000000001;1;0.34999999999999998;0.34999999999999998;0.82879999999999998;1;0.34999999999999998;0.34999999999999998;
+LabRegionChromaticityMask_1=1;0;1;0.34999999999999998;0.34999999999999998;1;1;0.34999999999999998;0.34999999999999998;
+LabRegionLightnessMask_1=1;0;1;0.34999999999999998;0.34999999999999998;1;1;0.34999999999999998;0.34999999999999998;
 LabRegionMaskBlur_1=0
 LabRegionChannel_1=-1
 LabRegionsShowMask=-1
 
 [RAW]
-DarkFrame=\\szeva
+DarkFrame=/szeva
 DarkFrameAuto=false
-FlatFieldFile=\\szeva
+FlatFieldFile=/szeva
 FlatFieldAutoSelect=false
 FlatFieldFromMetaData=false
 FlatFieldBlurRadius=32
 FlatFieldBlurType=Area Flatfield
 FlatFieldAutoClipControl=false
 FlatFieldClipControl=0
-CA=false
+CA=true
 CAAvoidColourshift=false
-CAAutoIterations=2
+CAAutoIterations=5
 CARed=0
 CABlue=0
 HotPixelFilter=true
@@ -707,20 +758,21 @@ PreExposure=1
 Method=rcdbilinear
 Border=4
 ImageNum=1
-CcSteps=5
+CcSteps=0
 PreBlack0=0
 PreBlack1=0
 PreBlack2=0
 PreBlack3=0
 PreTwoGreen=true
+Dehablack=false
 LineDenoise=0
 LineDenoiseDirection=3
-GreenEqThreshold=0
+GreenEqThreshold=20
 DCBIterations=2
 DCBEnhance=true
 LMMSEIterations=0
 DualDemosaicAutoContrast=false
-DualDemosaicContrast=70
+DualDemosaicContrast=90
 PixelShiftMotionCorrectionMethod=1
 PixelShiftEperIso=0
 PixelShiftSigma=1
@@ -731,7 +783,7 @@ pixelShiftAverage=false
 pixelShiftMedian=false
 pixelShiftGreen=true
 pixelShiftBlur=true
-pixelShiftSmoothFactor=0.7
+pixelShiftSmoothFactor=0.69999999999999996
 pixelShiftEqualBright=false
 pixelShiftEqualBrightChannel=false
 pixelShiftNonGreenCross=true
@@ -747,14 +799,15 @@ CcSteps=0
 PreBlackRed=0
 PreBlackGreen=0
 PreBlackBlue=0
+Dehablackx=false
 
 [MetaData]
 Mode=0
-ExifKeys=Exif.Image.Copyright;Exif.Image.Artist;Exif.Image.ImageDescription;Exif.Photo.UserComment;Exif.Image.Make;Exif.Image.Model;Exif.Photo.LensModel;Exif.Photo.FNumber;Exif.Photo.ExposureTime;Exif.Photo.FocalLength;Exif.Photo.ISOSpeedRatings;Exif.Photo.ExposureBiasValue;Exif.Photo.Flash;Exif.Photo.DateTimeOriginal;Exif.Image.XResolution;Exif.Image.YResolution;
+ExifKeys=Exif.Image.Artist;Exif.Image.Copyright;Exif.Image.ImageDescription;Exif.Image.Make;Exif.Image.Model;Exif.Image.XResolution;Exif.Image.YResolution;Exif.Photo.DateTimeOriginal;Exif.Photo.ExposureBiasValue;Exif.Photo.ExposureTime;Exif.Photo.FNumber;Exif.Photo.Flash;Exif.Photo.FocalLength;Exif.Photo.ISOSpeedRatings;Exif.Photo.LensModel;Exif.Photo.UserComment;
 
 [Film Negative]
 Enabled=false
-RedRatio=1.36
+RedRatio=1.3600000000000001
 GreenExponent=1.5
 BlueRatio=0.87
 ColorSpace=0
