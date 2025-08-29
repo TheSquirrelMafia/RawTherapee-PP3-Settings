@@ -12,6 +12,9 @@ Curve2=0;
 Enabled=true
 Method=Blend
 
+[Sharpening]
+Enabled=true
+
 [ToneEqualizer]
 Enabled=true
 Band0=-25

@@ -6,6 +6,9 @@ ClampOOG=true
 Enabled=false
 Method=Blend
 
+[Sharpening]
+Enabled=true
+
 [ToneEqualizer]
 Enabled=false
 
