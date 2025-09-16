@@ -27,9 +27,10 @@ Enabled=false
 Enabled=false
 
 [Color Management]
-InputProfile=(embedded)
+InputProfile=(camera)
 ToneCurve=false
 ApplyLookTable=false
 ApplyBaselineExposureOffset=false
 ApplyHueSatMap=true
 WorkingProfile=sRGB
+OutputProfile=No ICM: sRGB output

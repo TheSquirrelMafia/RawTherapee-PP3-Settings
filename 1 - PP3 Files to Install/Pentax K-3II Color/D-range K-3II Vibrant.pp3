@@ -19,3 +19,4 @@ ApplyLookTable=false
 ApplyBaselineExposureOffset=false
 ApplyHueSatMap=true
 WorkingProfile=sRGB
+OutputProfile=No ICM: sRGB output

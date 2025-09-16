@@ -26,9 +26,10 @@ Regularization=0
 Pivot=0.5
 
 [Color Management]
-InputProfile=(embedded)
+InputProfile=(camera)
 ToneCurve=false
 ApplyLookTable=false
 ApplyBaselineExposureOffset=false
 ApplyHueSatMap=true
 WorkingProfile=sRGB
+OutputProfile=No ICM: sRGB output

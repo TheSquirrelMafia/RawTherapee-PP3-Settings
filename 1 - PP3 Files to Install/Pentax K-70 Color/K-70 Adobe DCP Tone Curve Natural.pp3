@@ -14,23 +14,24 @@ CurveFromHistogramMatching=false
 ClampOOG=true
 CurveMode=Standard
 CurveMode2=Standard
-Curve=4;0;0;0.06;0.02;0.13;0.07;0.23;0.19;0.355;0.415;0.53;0.6575;0.8;0.9;1;1;
+Curve=0;
 Curve2=0;
 
 [HLRecovery]
 Enabled=false
 
 [Sharpening]
-Enabled=true
+Enabled=false
 
 [ToneEqualizer]
 Enabled=false
 
 [Color Management]
-InputProfile=file:PENTAX K-50 Bright.dcp
-ToneCurve=false
-ApplyLookTable=false
+InputProfile=file:PENTAX K-70 Natural.dcp
+ToneCurve=true
+ApplyLookTable=true
 ApplyBaselineExposureOffset=false
 ApplyHueSatMap=true
-WorkingProfile=sRGB
-OutputProfile=No ICM: sRGB output
+DCPIlluminant=0
+WorkingProfile=ProPhoto
+OutputProfile=RTv4_sRGB
