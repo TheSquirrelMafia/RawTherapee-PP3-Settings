@@ -6,14 +6,14 @@ ClampOOG=true
 Enabled=false
 Method=Blend
 
-[Directional Pyramid Denoising]
-Method=RGB
+[Sharpening]
+Enabled=false
 
 [ToneEqualizer]
 Enabled=false
 
 [Color Management]
-InputProfile=(camera)
+InputProfile=(embedded)
 ToneCurve=false
 ApplyLookTable=false
 ApplyBaselineExposureOffset=false
