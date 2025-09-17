@@ -1,0 +1,37 @@
+[Exposure]
+Auto=false
+Clip=0.02
+Compensation=0
+Brightness=0
+Contrast=0
+Saturation=0
+Black=0
+HighlightCompr=0
+HighlightComprThreshold=0
+ShadowCompr=50
+HistogramMatching=false
+CurveFromHistogramMatching=false
+ClampOOG=true
+CurveMode=Standard
+CurveMode2=Standard
+Curve=0;
+Curve2=0;
+
+[HLRecovery]
+Enabled=false
+
+[Sharpening]
+Enabled=true
+
+[ToneEqualizer]
+Enabled=false
+
+[Color Management]
+InputProfile=file:PENTAX K-1II Landscape.dcp
+ToneCurve=true
+ApplyLookTable=true
+ApplyBaselineExposureOffset=false
+ApplyHueSatMap=true
+DCPIlluminant=0
+WorkingProfile=ProPhoto
+OutputProfile=RTv4_sRGB
