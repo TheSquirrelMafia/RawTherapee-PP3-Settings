@@ -1,23 +1,35 @@
 [Exposure]
+Auto=false
+Clip=0.02
+Compensation=0
+Brightness=0
 Contrast=0
+Saturation=0
+Black=0
+HighlightCompr=0
+HighlightComprThreshold=0
+ShadowCompr=50
 HistogramMatching=false
-Curve=3;0;0;0.105;0.095;0.3;0.3;0.8975;0.9025;1;1;
+CurveFromHistogramMatching=false
+ClampOOG=true
+CurveMode=Standard
+CurveMode2=Standard
+Curve=4;0;0;0.06;0.02;0.13;0.07;0.23;0.19;0.355;0.415;0.53;0.6575;0.8;0.9;1;1;
 Curve2=0;
 
 [HLRecovery]
 Enabled=false
-Method=Blend
 
-[Directional Pyramid Denoising]
-Method=Lab
+[Sharpening]
+Enabled=true
 
 [ToneEqualizer]
 Enabled=false
 
 [Color Management]
 InputProfile=file:PENTAX K-1 Bright.dcp
-ToneCurve=true
-ApplyLookTable=true
+ToneCurve=false
+ApplyLookTable=false
 ApplyBaselineExposureOffset=false
 ApplyHueSatMap=true
-WorkingProfile=ProPhoto
+WorkingProfile=sRGB
