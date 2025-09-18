@@ -3,7 +3,7 @@ Some PP3 files to help you get started with RawTherapee on Linux & Windows.
 
 This is basically a bunch of PP3 files to use with RawTherapee on Linux & Windows. They're a general strating point. I use Pentax cameras, hence the Pentax color PP3 files, but you can just about use these on any camera out there.
 
-Now to get to the nitty gritty.
+Now to get down to the nitty gritty.
 
 First thing's first. If you are dead set on using RawTherapee as your main RAW converter, you will need to do one thing.
 
@@ -13,4 +13,4 @@ D-Range allows for more dynamic range in your photos. It basically tries to prev
 
 Sometimes RawTherapee will have exposure issues with certain D-Range embedded RAW files. Some cameras are worse than others. RawTherapee has less issues with D-Range embedded K-50 RAW files than with D-Range embedded K-3II RAW files. RawTherapee might struggle with 25% of RAW files from the K-50, while it might struggle with about 60% of RAW files from the K-3II. This is why I recommend turning off D-Range.
 
-With that being said, turning off D-Range has it's own set of challenges. You'll have to be more careful with exposure out in the field. The camera is no longer trying to prevent blown highlights and/or underexposed shadows for you. You have more control over exposure, but more chances to ruin the shot with too many blown highlights if you're not careful. Blown highlights can be almost impossible to recover at times. Keep this in mind & you'll good to go.
+With that being said, turning off D-Range has it's own set of challenges. You'll have to be more careful with exposure out in the field. The camera is no longer trying to prevent blown highlights and/or underexposed shadows for you. You have more control over exposure, but more chances to ruin the shot with too many blown highlights if you're not careful. Blown highlights can be almost impossible to recover at times. Keep this in mind & you'll good to go. \(^_^ )
