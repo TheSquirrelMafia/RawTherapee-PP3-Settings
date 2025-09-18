@@ -27,7 +27,7 @@ Enabled=false
 Enabled=false
 
 [Color Management]
-InputProfile=(camera)
+InputProfile=(embedded)
 ToneCurve=false
 ApplyLookTable=false
 ApplyBaselineExposureOffset=false
