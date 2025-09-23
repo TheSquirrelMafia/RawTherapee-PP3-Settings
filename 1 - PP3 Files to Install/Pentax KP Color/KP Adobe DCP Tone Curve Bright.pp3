@@ -14,7 +14,7 @@ CurveFromHistogramMatching=false
 ClampOOG=true
 CurveMode=Standard
 CurveMode2=Standard
-Curve=0;
+Curve=3;0;0;0.105;0.095;0.3;0.3;0.8975;0.9025;1;1;
 Curve2=0;
 
 [HLRecovery]
