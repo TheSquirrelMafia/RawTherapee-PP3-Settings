@@ -34,4 +34,4 @@ ApplyBaselineExposureOffset=false
 ApplyHueSatMap=true
 DCPIlluminant=0
 WorkingProfile=ProPhoto
-OutputProfile=RTv4_sRGB
+OutputProfile=No ICM: sRGB output
