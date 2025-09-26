@@ -15,7 +15,7 @@ Enabled=false
 [Color Management]
 InputProfile=file:PENTAX K-3II Landscape.dcp
 ToneCurve=true
-ApplyLookTable=false
+ApplyLookTable=true
 ApplyBaselineExposureOffset=false
 ApplyHueSatMap=true
 WorkingProfile=BestRGB
