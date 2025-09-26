@@ -14,7 +14,7 @@ Enabled=false
 
 [Color Management]
 InputProfile=(camera)
-ToneCurve=false
+ToneCurve=true
 ApplyLookTable=false
 ApplyBaselineExposureOffset=false
 ApplyHueSatMap=true
