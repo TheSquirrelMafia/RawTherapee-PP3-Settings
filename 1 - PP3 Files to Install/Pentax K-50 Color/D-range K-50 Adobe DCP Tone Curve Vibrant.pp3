@@ -1,0 +1,22 @@
+[Exposure]
+HistogramMatching=true
+ClampOOG=true
+
+[HLRecovery]
+Enabled=false
+Method=Blend
+
+[Sharpening]
+Enabled=false
+
+[ToneEqualizer]
+Enabled=false
+
+[Color Management]
+InputProfile=file:PENTAX K-50 Vibrant.dcp
+ToneCurve=true
+ApplyLookTable=true
+ApplyBaselineExposureOffset=false
+ApplyHueSatMap=true
+WorkingProfile=sRGB
+OutputProfile=No ICM: sRGB output
