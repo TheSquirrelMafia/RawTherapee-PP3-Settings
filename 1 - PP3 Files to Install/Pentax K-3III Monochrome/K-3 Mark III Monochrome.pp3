@@ -114,22 +114,22 @@ LcCurve=0;
 ClCurve=0;
 
 [Sharpening]
-Enabled=false
-Contrast=21
+Enabled=true
+Contrast=3
 Method=usm
 Radius=1
-BlurRadius=0.32
-Amount=63
+BlurRadius=0.2
+Amount=105
 Threshold=20;80;2000;1200;
 OnlyEdges=false
 EdgedetectionRadius=1.9
 EdgeTolerance=1800
 HalocontrolEnabled=true
-HalocontrolAmount=21
+HalocontrolAmount=3
 DeconvRadius=0.75
-DeconvAmount=27
-DeconvDamping=42
-DeconvIterations=9
+DeconvAmount=45
+DeconvDamping=6
+DeconvIterations=15
 
 [Vibrance]
 Enabled=false
@@ -422,14 +422,14 @@ BorderGreen=255
 BorderBlue=255
 
 [PostDemosaicSharpening]
-Enabled=false
-Contrast=91
+Enabled=true
+Contrast=13
 AutoContrast=false
 AutoRadius=false
 DeconvRadius=0.5
-DeconvRadiusOffset=-0.21
+DeconvRadiusOffset=-0.03
 DeconvIterCheck=false
-DeconvIterations=9
+DeconvIterations=15
 
 [PostResizeSharpening]
 Enabled=false
