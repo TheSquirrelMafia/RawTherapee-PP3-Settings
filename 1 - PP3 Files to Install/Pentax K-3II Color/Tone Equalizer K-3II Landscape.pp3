@@ -26,7 +26,7 @@ Regularization=0
 Pivot=0.5
 
 [Color Management]
-InputProfile=file:PENTAX K-3II Landscape.dcp
+InputProfile=file:PENTAX k-3II Landscape.dcp
 ToneCurve=false
 ApplyLookTable=false
 ApplyBaselineExposureOffset=false

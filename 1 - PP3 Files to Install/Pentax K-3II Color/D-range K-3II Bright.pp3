@@ -13,9 +13,9 @@ Enabled=true
 Enabled=false
 
 [Color Management]
-InputProfile=file:PENTAX K-3II Bright.dcp
-ToneCurve=true
-ApplyLookTable=true
+InputProfile=file:PENTAX k-3II Bright.dcp
+ToneCurve=false
+ApplyLookTable=false
 ApplyBaselineExposureOffset=false
 ApplyHueSatMap=true
 WorkingProfile=sRGB

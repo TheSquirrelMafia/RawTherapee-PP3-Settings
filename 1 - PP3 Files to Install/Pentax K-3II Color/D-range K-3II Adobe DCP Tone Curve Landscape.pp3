@@ -14,9 +14,9 @@ Enabled=false
 
 [Color Management]
 InputProfile=file:PENTAX k-3II Landscape.dcp
-ToneCurve=false
-ApplyLookTable=false
+ToneCurve=true
+ApplyLookTable=true
 ApplyBaselineExposureOffset=false
 ApplyHueSatMap=true
-WorkingProfile=sRGB
+WorkingProfile=Adobe RGB
 OutputProfile=No ICM: sRGB output

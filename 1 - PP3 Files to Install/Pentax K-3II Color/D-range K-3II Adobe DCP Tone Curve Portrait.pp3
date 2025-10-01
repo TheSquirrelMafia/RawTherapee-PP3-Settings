@@ -7,16 +7,16 @@ Enabled=false
 Method=Blend
 
 [Sharpening]
-Enabled=true
+Enabled=false
 
 [ToneEqualizer]
 Enabled=false
 
 [Color Management]
-InputProfile=file:PENTAX k-3II Landscape.dcp
-ToneCurve=false
-ApplyLookTable=false
+InputProfile=file:PENTAX k-3II Portrait.dcp
+ToneCurve=true
+ApplyLookTable=true
 ApplyBaselineExposureOffset=false
 ApplyHueSatMap=true
-WorkingProfile=sRGB
+WorkingProfile=Adobe RGB
 OutputProfile=No ICM: sRGB output
