@@ -254,7 +254,7 @@ AutoGain=false
 Gamma=2.4
 Passes=3
 LCurve=1;0.024;0.024;0.35;0.35;0.048;0.012;0.35;0.35;
-CCCurve=0;
+CCCurve=1;0.005;0.02;0.35;0.35;0.04;0.005;0.35;0.35;
 
 [EPD]
 Enabled=false
