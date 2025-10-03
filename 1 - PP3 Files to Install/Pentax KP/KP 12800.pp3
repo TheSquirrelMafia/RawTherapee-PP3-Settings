@@ -114,7 +114,7 @@ LcCurve=0;
 ClCurve=0;
 
 [Sharpening]
-Enabled=false
+Enabled=true
 Contrast=24
 Method=usm
 Radius=1

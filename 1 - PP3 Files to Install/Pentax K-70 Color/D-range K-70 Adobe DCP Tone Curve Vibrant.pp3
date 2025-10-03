@@ -7,7 +7,7 @@ Enabled=false
 Method=Blend
 
 [Sharpening]
-Enabled=false
+Enabled=true
 
 [ToneEqualizer]
 Enabled=false
