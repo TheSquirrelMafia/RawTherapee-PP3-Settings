@@ -3,7 +3,7 @@ HistogramMatching=true
 ClampOOG=true
 
 [HLRecovery]
-Enabled=false
+Enabled=true
 Method=Blend
 
 [Sharpening]

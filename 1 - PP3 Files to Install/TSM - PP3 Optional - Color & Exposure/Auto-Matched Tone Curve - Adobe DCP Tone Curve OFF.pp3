@@ -2,6 +2,16 @@
 HistogramMatching=true
 ClampOOG=true
 
+[HLRecovery]
+Enabled=true
+Method=Blend
+
+[Sharpening]
+Enabled=true
+
+[ToneEqualizer]
+Enabled=false
+
 [Color Management]
 ToneCurve=false
 ApplyLookTable=false
