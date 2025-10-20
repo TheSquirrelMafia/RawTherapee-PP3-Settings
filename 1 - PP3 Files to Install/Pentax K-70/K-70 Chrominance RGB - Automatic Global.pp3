@@ -1,0 +1,4 @@
+[Directional Pyramid Denoising]
+Method=RGB
+C2Method=AUTO
+Gamma=2
