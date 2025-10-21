@@ -1,5 +1,6 @@
 [Directional Pyramid Denoising]
 Method=RGB
+LMethod=SLI
 C2Method=AUTO
 Gamma=2
 
