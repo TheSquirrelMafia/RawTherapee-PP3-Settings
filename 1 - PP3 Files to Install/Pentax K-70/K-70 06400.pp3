@@ -237,7 +237,7 @@ Saturation=50
 Enabled=true
 Enhance=false
 Median=true
-Luma=7
+Luma=4.2
 Ldetail=0
 Chroma=4.2
 Method=Lab
@@ -253,7 +253,7 @@ Bluechro=0
 AutoGain=false
 Gamma=1.8
 Passes=3
-LCurve=1;0.07;0.07;0.35;0.35;0.14;0.035;0.35;0.35;
+LCurve=1;0.042;0.042;0.35;0.35;0.084;0.021;0.35;0.35;
 CCCurve=1;0.035;0.14;0.35;0.35;0.28;0.035;0.35;0.35;
 
 [EPD]
