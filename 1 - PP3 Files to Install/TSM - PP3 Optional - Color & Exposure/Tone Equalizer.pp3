@@ -6,9 +6,8 @@ HighlightComprThreshold=0
 ShadowCompr=0
 
 [HLRecovery]
-Enabled=true
+Enabled=false
 Method=Blend
-Hlbl=0
 
 [ToneEqualizer]
 Enabled=true

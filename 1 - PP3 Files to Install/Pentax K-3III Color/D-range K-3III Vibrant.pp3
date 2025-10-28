@@ -3,7 +3,7 @@ HistogramMatching=true
 ClampOOG=true
 
 [HLRecovery]
-Enabled=true
+Enabled=false
 Method=Blend
 
 [Directional Pyramid Denoising]
