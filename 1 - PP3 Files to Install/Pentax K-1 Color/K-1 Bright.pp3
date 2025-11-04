@@ -32,5 +32,5 @@ ToneCurve=false
 ApplyLookTable=false
 ApplyBaselineExposureOffset=false
 ApplyHueSatMap=true
-WorkingProfile=sRGB
+WorkingProfile=BestRGB
 OutputProfile=No ICM: sRGB output
