@@ -26,7 +26,7 @@ Regularization=0
 Pivot=0.5
 
 [Color Management]
-InputProfile=file:PENTAX k-1II Vibrant.dcp
+InputProfile=file:PENTAX K-1II Vibrant.dcp
 ToneCurve=false
 ApplyLookTable=false
 ApplyBaselineExposureOffset=false

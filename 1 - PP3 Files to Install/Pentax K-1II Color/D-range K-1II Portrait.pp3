@@ -13,7 +13,7 @@ Enabled=true
 Enabled=false
 
 [Color Management]
-InputProfile=file:PENTAX k-1II Portrait.dcp
+InputProfile=file:PENTAX K-1II Portrait.dcp
 ToneCurve=false
 ApplyLookTable=false
 ApplyBaselineExposureOffset=false
