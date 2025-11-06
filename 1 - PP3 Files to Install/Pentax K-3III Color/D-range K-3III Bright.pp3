@@ -18,4 +18,4 @@ ToneCurve=false
 ApplyLookTable=false
 ApplyBaselineExposureOffset=false
 ApplyHueSatMap=true
-WorkingProfile=BestRGB
+WorkingProfile=WideGamut
