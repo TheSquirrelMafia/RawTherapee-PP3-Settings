@@ -18,5 +18,5 @@ ToneCurve=true
 ApplyLookTable=true
 ApplyBaselineExposureOffset=false
 ApplyHueSatMap=true
-WorkingProfile=WideGamut
-OutputProfile=No ICM: sRGB output
+WorkingProfile=ProPhoto
+OutputProfile=RTv4_sRGB
