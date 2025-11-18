@@ -15,7 +15,7 @@ Enabled=false
 [Color Management]
 InputProfile=file:PENTAX K-3II Portrait.dcp
 ToneCurve=true
-ApplyLookTable=true
+ApplyLookTable=false
 ApplyBaselineExposureOffset=false
 ApplyHueSatMap=true
 WorkingProfile=ProPhoto
