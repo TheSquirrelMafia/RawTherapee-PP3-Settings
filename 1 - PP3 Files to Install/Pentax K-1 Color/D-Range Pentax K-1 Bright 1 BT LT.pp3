@@ -1,0 +1,22 @@
+[Exposure]
+HistogramMatching=true
+ClampOOG=true
+
+[HLRecovery]
+Enabled=false
+Method=Blend
+
+[Sharpening]
+Enabled=true
+
+[ToneEqualizer]
+Enabled=false
+
+[Color Management]
+InputProfile=file:PENTAX K-1 Bright.dcp
+ToneCurve=false
+ApplyLookTable=true
+ApplyBaselineExposureOffset=false
+ApplyHueSatMap=true
+WorkingProfile=ProPhoto
+OutputProfile=RTv4_sRGB

@@ -12,9 +12,9 @@ ShadowCompr=50
 HistogramMatching=false
 CurveFromHistogramMatching=false
 ClampOOG=true
-CurveMode=Standard
+CurveMode=FilmLike
 CurveMode2=Standard
-Curve=4;0;0;0.06;0.03;0.125;0.08;0.22;0.195;0.3525;0.415;0.5475;0.66;0.8125;0.8875;1;1;
+Curve=4;0;0;0.06;0.02;0.13;0.07;0.23;0.19;0.355;0.415;0.53;0.6575;0.8;0.9;1;1;
 Curve2=0;
 
 [HLRecovery]
@@ -449,13 +449,13 @@ DeconvDamping=0
 DeconvIterations=100
 
 [Color Management]
-InputProfile=(camera)
+InputProfile=(cameraICC)
 ToneCurve=false
-ApplyLookTable=false
+ApplyLookTable=true
 ApplyBaselineExposureOffset=false
 ApplyHueSatMap=true
 DCPIlluminant=0
-WorkingProfile=Adobe RGB
+WorkingProfile=ProPhoto
 WorkingTRC=none
 Will=def
 Wprim=def

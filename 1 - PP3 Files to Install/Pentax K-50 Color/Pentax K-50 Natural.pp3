@@ -1,0 +1,36 @@
+[Exposure]
+Auto=false
+Clip=0.02
+Compensation=0
+Naturalness=0
+Contrast=0
+Saturation=0
+Black=0
+HighlightCompr=0
+HighlightComprThreshold=0
+ShadowCompr=50
+HistogramMatching=false
+CurveFromHistogramMatching=false
+ClampOOG=true
+CurveMode=FilmLike
+CurveMode2=Standard
+Curve=4;0;0;0.06;0.03;0.125;0.08;0.22;0.195;0.3525;0.415;0.5475;0.66;0.8125;0.8875;1;1;
+Curve2=0;
+
+[HLRecovery]
+Enabled=false
+
+[Sharpening]
+Enabled=true
+
+[ToneEqualizer]
+Enabled=false
+
+[Color Management]
+InputProfile=file:PENTAX K-50 Natural.dcp
+ToneCurve=false
+ApplyLookTable=true
+ApplyBaselineExposureOffset=false
+ApplyHueSatMap=true
+WorkingProfile=ProPhoto
+OutputProfile=RTv4_sRGB

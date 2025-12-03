@@ -1,6 +1,0 @@
-[Color Management]
-InputProfile=file:Landscape.dcp
-ToneCurve=true
-ApplyLookTable=true
-ApplyBaselineExposureOffset=false
-ApplyHueSatMap=true
