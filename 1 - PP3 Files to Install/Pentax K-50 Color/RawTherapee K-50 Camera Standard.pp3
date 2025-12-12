@@ -29,8 +29,8 @@ Enabled=false
 [Color Management]
 InputProfile=(camera)
 ToneCurve=false
-ApplyLookTable=true
+ApplyLookTable=false
 ApplyBaselineExposureOffset=false
-ApplyHueSatMap=true
+ApplyHueSatMap=false
 WorkingProfile=ProPhoto
 OutputProfile=RTv4_sRGB

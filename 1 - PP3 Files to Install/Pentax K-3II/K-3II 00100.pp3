@@ -451,9 +451,9 @@ DeconvIterations=100
 [Color Management]
 InputProfile=(camera)
 ToneCurve=false
-ApplyLookTable=true
+ApplyLookTable=false
 ApplyBaselineExposureOffset=false
-ApplyHueSatMap=true
+ApplyHueSatMap=false
 DCPIlluminant=0
 WorkingProfile=ProPhoto
 WorkingTRC=none
