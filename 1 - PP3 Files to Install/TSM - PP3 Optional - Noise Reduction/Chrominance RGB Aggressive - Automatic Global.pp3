@@ -1,3 +1,6 @@
 [Directional Pyramid Denoising]
 Method=RGB
+LMethod=CUR
+C2Method=AUTO
 SMethod=shalbi
+Gamma=2

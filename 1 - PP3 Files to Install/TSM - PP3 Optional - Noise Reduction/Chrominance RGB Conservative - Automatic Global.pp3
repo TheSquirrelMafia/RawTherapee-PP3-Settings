@@ -2,4 +2,5 @@
 Method=RGB
 LMethod=SLI
 C2Method=AUTO
+SMethod=shal
 Gamma=2

@@ -1,2 +1,6 @@
 [Directional Pyramid Denoising]
+Method=Lab
+LMethod=CUR
+C2Method=AUTO
 SMethod=shal
+Gamma=2
