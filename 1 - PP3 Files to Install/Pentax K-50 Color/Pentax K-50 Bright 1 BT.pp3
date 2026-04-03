@@ -20,9 +20,6 @@ Curve2=0;
 [HLRecovery]
 Enabled=false
 
-[Sharpening]
-Enabled=true
-
 [ToneEqualizer]
 Enabled=false
 
