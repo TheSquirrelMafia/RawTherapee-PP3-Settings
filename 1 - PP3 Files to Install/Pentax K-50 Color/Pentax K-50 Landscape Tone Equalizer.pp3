@@ -2,7 +2,7 @@
 Auto=false
 Clip=0.02
 Compensation=0
-Brightness=0
+Brightness=-1
 Contrast=2
 Saturation=0
 Black=0
@@ -28,7 +28,7 @@ Enabled=true
 Band0=0
 Band1=10
 Band2=2
-Band3=0
+Band3=3
 Band4=-20
 Band5=0
 Regularization=5

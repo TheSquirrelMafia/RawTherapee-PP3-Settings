@@ -2,7 +2,7 @@
 Auto=false
 Clip=0.02
 Compensation=0
-Brightness=0
+Brightness=-1
 Contrast=2
 Saturation=0
 Black=0
