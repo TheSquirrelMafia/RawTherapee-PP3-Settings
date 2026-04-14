@@ -12,10 +12,11 @@ Method=Blend
 
 [ToneEqualizer]
 Enabled=true
-Band0=-25
-Band1=5
+Band0=0
+Band1=0
 Band2=3
-Band3=0
-Band4=-25
-Regularization=0
+Band3=5
+Band4=-20
+Band5=0
+Regularization=5
 Pivot=0.5
