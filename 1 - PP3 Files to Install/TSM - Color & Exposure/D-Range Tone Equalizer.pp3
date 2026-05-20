@@ -1,0 +1,25 @@
+[Exposure]
+HighlightCompr=10
+HistogramMatching=true
+ClampOOG=true
+
+[HLRecovery]
+Enabled=false
+Method=Blend
+Hlbl=0
+Hlth=1
+
+[ToneEqualizer]
+Enabled=true
+Band0=0
+Band1=0
+Band2=3
+Band3=5
+Band4=-20
+Band5=0
+Regularization=5
+Pivot=0.5
+
+[Color Management]
+WorkingProfile=ProPhoto
+OutputProfile=RTv4_sRGB

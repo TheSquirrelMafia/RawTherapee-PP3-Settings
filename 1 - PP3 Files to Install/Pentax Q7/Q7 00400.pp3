@@ -293,13 +293,13 @@ rolloff=true
 
 [ToneEqualizer]
 Enabled=false
-Band0=-25
-Band1=5
+Band0=0
+Band1=0
 Band2=3
-Band3=0
-Band4=-25
+Band3=5
+Band4=-20
 Band5=0
-Regularization=0
+Regularization=5
 Pivot=0.5
 
 [Crop]
