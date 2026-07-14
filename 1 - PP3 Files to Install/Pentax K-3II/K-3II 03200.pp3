@@ -240,7 +240,7 @@ Median=true
 Luma=12
 Ldetail=0
 Chroma=12
-Method=Lab
+Method=RGB
 LMethod=CUR
 CMethod=MAN
 C2Method=MANU
@@ -449,7 +449,7 @@ DeconvDamping=0
 DeconvIterations=100
 
 [Color Management]
-InputProfile=(camera)
+InputProfile=(embedded)
 ToneCurve=false
 ApplyLookTable=false
 ApplyBaselineExposureOffset=false

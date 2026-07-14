@@ -5,7 +5,7 @@ Compensation=0
 Brightness=-1
 Contrast=2
 Saturation=0
-Black=0
+Black=-500
 HighlightCompr=15
 HighlightComprThreshold=0
 ShadowCompr=50
@@ -30,7 +30,3 @@ Band4=-20
 Band5=0
 Regularization=5
 Pivot=0.5
-
-[Color Management]
-WorkingProfile=ProPhoto
-OutputProfile=RTv4_sRGB

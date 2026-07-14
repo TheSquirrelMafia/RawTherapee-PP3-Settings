@@ -4,5 +4,3 @@ ToneCurve=false
 ApplyLookTable=false
 ApplyBaselineExposureOffset=false
 ApplyHueSatMap=true
-WorkingProfile=ProPhoto
-OutputProfile=RTv4_sRGB

@@ -30,7 +30,3 @@ Band4=-20
 Band5=0
 Regularization=5
 Pivot=0.5
-
-[Color Management]
-WorkingProfile=ProPhoto
-OutputProfile=RTv4_sRGB
