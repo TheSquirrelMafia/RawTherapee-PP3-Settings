@@ -12,7 +12,7 @@ ShadowCompr=50
 HistogramMatching=true
 CurveFromHistogramMatching=false
 ClampOOG=true
-CurveMode=FilmLike
+CurveMode=Standard
 CurveMode2=Standard
 Curve=0;
 Curve2=0;
@@ -114,7 +114,7 @@ LcCurve=0;
 ClCurve=0;
 
 [Sharpening]
-Enabled=true
+Enabled=false
 Contrast=18
 Method=usm
 Radius=1
@@ -293,13 +293,13 @@ rolloff=true
 
 [ToneEqualizer]
 Enabled=false
-Band0=-25
+Band0=0
 Band1=5
-Band2=3
-Band3=0
-Band4=-25
+Band2=2
+Band3=3
+Band4=-20
 Band5=0
-Regularization=0
+Regularization=5
 Pivot=0.5
 
 [Crop]
@@ -455,7 +455,7 @@ ApplyLookTable=false
 ApplyBaselineExposureOffset=false
 ApplyHueSatMap=false
 DCPIlluminant=0
-WorkingProfile=ProPhoto
+WorkingProfile=BestRGB
 WorkingTRC=none
 Will=def
 Wprim=def

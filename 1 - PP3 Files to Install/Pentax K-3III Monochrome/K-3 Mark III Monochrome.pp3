@@ -293,13 +293,13 @@ rolloff=true
 
 [ToneEqualizer]
 Enabled=false
-Band0=-25
+Band0=0
 Band1=5
-Band2=3
-Band3=0
-Band4=-25
+Band2=2
+Band3=3
+Band4=-20
 Band5=0
-Regularization=0
+Regularization=5
 Pivot=0.5
 
 [Crop]
@@ -455,7 +455,7 @@ ApplyLookTable=true
 ApplyBaselineExposureOffset=false
 ApplyHueSatMap=true
 DCPIlluminant=0
-WorkingProfile=ProPhoto
+WorkingProfile=BestRGB
 WorkingTRC=none
 Will=D50
 Wprim=def
