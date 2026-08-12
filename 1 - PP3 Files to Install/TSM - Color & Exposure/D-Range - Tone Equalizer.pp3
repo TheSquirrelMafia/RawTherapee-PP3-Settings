@@ -1,7 +1,7 @@
 [Exposure]
 Auto=false
 Clip=0.02
-Compensation=0
+Compensation=1
 Brightness=-1
 Contrast=2
 Saturation=0
@@ -12,16 +12,13 @@ ShadowCompr=50
 HistogramMatching=false
 CurveFromHistogramMatching=false
 ClampOOG=true
-Curve=4;0;0;0.0525;0.03;0.12;0.12;0.22;0.33;0.3525;0.605;0.55;0.83;0.815;0.9675;1;1;
+Curve=4;0;0;0.06;0.02;0.13;0.07;0.23;0.19;0.355;0.415;0.53;0.6575;0.8;0.9;1;1;
 
 [HLRecovery]
 Enabled=false
 Method=Blend
 Hlbl=0
 Hlth=1
-
-[Directional Pyramid Denoising]
-C2Method=AUTO
 
 [ToneEqualizer]
 Enabled=true
