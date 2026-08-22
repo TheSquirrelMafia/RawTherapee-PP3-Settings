@@ -11,14 +11,14 @@ HighlightComprThreshold=0
 ShadowCompr=50
 HistogramMatching=false
 CurveFromHistogramMatching=false
-ClampOOG=true
+ClampOOG=false
 CurveMode=Standard
 CurveMode2=Standard
 Curve=4;0;0;0.065;0.03;0.125;0.09;0.2075;0.22;0.34;0.45;0.54;0.7;0.81;0.91;1;1;
 Curve2=0;
 
 [HLRecovery]
-Enabled=false
+Enabled=true
 Method=Blend
 Hlbl=0
 Hlth=1
@@ -455,7 +455,7 @@ ApplyLookTable=false
 ApplyBaselineExposureOffset=false
 ApplyHueSatMap=true
 DCPIlluminant=0
-WorkingProfile=Adobe RGB
+WorkingProfile=BruceRGB
 WorkingTRC=none
 Will=def
 Wprim=def

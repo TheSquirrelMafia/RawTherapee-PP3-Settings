@@ -1,5 +1,5 @@
 [Exposure]
 HistogramMatching=false
 CurveFromHistogramMatching=false
-ClampOOG=true
+ClampOOG=false
 Curve=4;0;0;0.06;0.02;0.13;0.07;0.23;0.19;0.355;0.415;0.53;0.6575;0.8;0.9;1;1;

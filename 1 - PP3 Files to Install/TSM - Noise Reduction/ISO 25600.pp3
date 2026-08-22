@@ -11,14 +11,14 @@ HighlightComprThreshold=0
 ShadowCompr=50
 HistogramMatching=true
 CurveFromHistogramMatching=false
-ClampOOG=true
+ClampOOG=false
 CurveMode=Standard
 CurveMode2=Standard
 Curve=0;
 Curve2=0;
 
 [HLRecovery]
-Enabled=false
+Enabled=true
 Method=Blend
 Hlbl=0
 Hlth=1
