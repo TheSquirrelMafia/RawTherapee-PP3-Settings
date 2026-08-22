@@ -1,6 +1,3 @@
-[Exposure]
-Compensation=0.05
-
 [Film Simulation]
 Enabled=true
 ClutFilename=Agfa\\Color\\Agfa Precisa 100.png
