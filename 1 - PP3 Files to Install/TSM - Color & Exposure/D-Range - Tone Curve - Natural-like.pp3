@@ -1,4 +1,14 @@
 [Exposure]
+Auto=false
+Clip=0.02
+Compensation=0
+Brightness=0
+Contrast=0
+Saturation=0
+Black=0
+HighlightCompr=0
+HighlightComprThreshold=0
+ShadowCompr=50
 HistogramMatching=false
 CurveFromHistogramMatching=false
 ClampOOG=false
@@ -6,18 +16,6 @@ Curve=4;0;0;0.05;0.04;0.1225;0.14;0.2175;0.3375;0.355;0.6;0.5475;0.81;0.8175;0.9
 
 [HLRecovery]
 Enabled=true
-Method=Blend
-Hlbl=0
-Hlth=1
 
 [ToneEqualizer]
 Enabled=false
-Band0=0
-Band1=5
-Band2=2
-Band3=3
-Band4=-20
-Band5=0
-Regularization=5
-Pivot=0.5
-
