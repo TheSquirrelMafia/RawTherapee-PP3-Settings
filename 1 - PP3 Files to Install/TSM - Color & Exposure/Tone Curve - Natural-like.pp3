@@ -4,3 +4,19 @@ CurveFromHistogramMatching=false
 ClampOOG=false
 Curve=4;0;0;0.06;0.03;0.125;0.08;0.22;0.195;0.3525;0.415;0.5475;0.66;0.8125;0.8875;1;1;
 
+[HLRecovery]
+Enabled=true
+Method=Blend
+Hlbl=0
+Hlth=1
+
+[ToneEqualizer]
+Enabled=false
+Band0=0
+Band1=5
+Band2=2
+Band3=3
+Band4=-20
+Band5=0
+Regularization=5
+Pivot=0.5
