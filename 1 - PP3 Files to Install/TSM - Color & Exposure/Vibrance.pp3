@@ -1,0 +1,9 @@
+[Vibrance]
+Enabled=true
+Pastels=25
+Saturated=25
+PSThreshold=0;75;
+ProtectSkins=true
+AvoidColorShift=true
+PastSatTog=true
+SkinTonesCurve=0;

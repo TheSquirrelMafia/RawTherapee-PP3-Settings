@@ -132,11 +132,11 @@ DeconvDamping=42
 DeconvIterations=9
 
 [Vibrance]
-Enabled=false
-Pastels=0
-Saturated=0
+Enabled=true
+Pastels=25
+Saturated=25
 PSThreshold=0;75;
-ProtectSkins=false
+ProtectSkins=true
 AvoidColorShift=true
 PastSatTog=true
 SkinTonesCurve=0;
