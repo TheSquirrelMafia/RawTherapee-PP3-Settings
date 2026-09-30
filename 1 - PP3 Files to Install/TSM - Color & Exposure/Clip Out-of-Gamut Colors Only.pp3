@@ -1,0 +1,5 @@
+[Exposure]
+ClampOOG=true
+
+[HLRecovery]
+Enabled=false
