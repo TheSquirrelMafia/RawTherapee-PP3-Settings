@@ -1,7 +1,7 @@
 [Exposure]
 Auto=false
 Clip=0.02
-Compensation=0
+Compensation=-0.2
 Brightness=0
 Contrast=0
 Saturation=0
