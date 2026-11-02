@@ -1,0 +1,20 @@
+[Black & White]
+Enabled=true
+Method=Desaturation
+
+[Impulse Denoising]
+Enabled=false
+
+[Directional Pyramid Denoising]
+Chroma=0
+LMethod=SLI
+CMethod=MAN
+C2Method=MANU
+Redchro=0
+Bluechro=0
+CCCurve=0;
+
+[RAW]
+CA=false
+HotPixelFilter=false
+DeadPixelFilter=false
